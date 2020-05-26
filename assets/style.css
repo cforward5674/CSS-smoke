@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.h3 {
+  position: absolute;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  overflow: hidden;
+}
+
+section {
+  display: flex;
+}
+
+section h2 {
+  position: relative;
+  font-size: 6em;
+  color: #fff;
+  z-index: 10000;
+  text-align: center;
+  margin-bottom: 10%;
+  padding: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 5px;
+  position: relative;
+  font-size: 5em;
+  color: #07A7B7;
+  z-index: 10000;
+}
+
+section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 731px) {
+ section h2 {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 594px)  {
+  section h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3rem;
+    margin-top: 20%;
+  }
+};
+
